@@ -10,12 +10,12 @@ nvm install v4
 
 ## Fork and Download Repositories
 
-To develop litecore-node:
+To develop counoscoincore-node:
 
 ```bash
 cd ~
-git clone git@github.com:<yourusername>/litecore-node.git
-git clone git@github.com:<yourusername>/litecore-lib.git
+git clone git@github.com:<yourusername>/counoscoincore-node.git
+git clone git@github.com:<yourusername>/counoscoincore-lib.git
 ```
 
 To develop litecoin or to compile from source:
@@ -46,19 +46,19 @@ brew install zeromq
 ## Install and Symlink
 
 ```bash
-cd litecore-lib
+cd counoscoincore-lib
 npm install
-cd ../litecore-node
+cd ../counoscoincore-node
 npm install
 ```
 **Note**: If you get a message about not being able to download litecoin distribution, you'll need to compile litecoind from source, and setup your configuration to use that version.
 
 
-We now will setup symlinks in `litecore-node` *(repeat this for any other modules you're planning on developing)*:
+We now will setup symlinks in `counoscoincore-node` *(repeat this for any other modules you're planning on developing)*:
 ```bash
 cd node_modules
-rm -rf litecore-lib
-ln -s ~/litecore-lib
+rm -rf counoscoincore-lib
+ln -s ~/counoscoincore-lib
 rm -rf bitcoind-rpc
 ln -s ~/bitcoind-rpc
 ```
@@ -78,7 +78,7 @@ npm install mocha -g
 
 To run all test suites:
 ```bash
-cd litecore-node
+cd counoscoincore-node
 npm run regtest
 npm run test
 ```
@@ -102,11 +102,11 @@ cd ~
 mkdir devnode
 cd devnode
 mkdir node_modules
-touch litecore-node.json
+touch counoscoincore-node.json
 touch package.json
 ```
 
-Edit `litecore-node.json` with something similar to:
+Edit `counoscoincore-node.json` with something similar to:
 ```json
 {
   "network": "livenet",
@@ -135,8 +135,8 @@ Setup symlinks for all of the services and dependencies:
 
 ```bash
 cd node_modules
-ln -s ~/litecore-lib
-ln -s ~/litecore-node
+ln -s ~/counoscoincore-lib
+ln -s ~/counoscoincore-node
 ln -s ~/insight-api
 ln -s ~/insight-ui
 ```
@@ -158,5 +158,5 @@ rpcpassword=local321
 
 From within the `devnode` directory with the configuration file, start the node:
 ```bash
-../litecore-node/bin/litecore-node start
+../counoscoincore-node/bin/counoscoincore-node start
 ```

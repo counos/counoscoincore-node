@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var counoscoincore = require('../lib/cli/bitcore');
+counoscoincore();

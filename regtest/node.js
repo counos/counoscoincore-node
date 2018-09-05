@@ -9,7 +9,7 @@ var log = index.log;
 log.debug = function() {};
 
 var chai = require('chai');
-var bitcore = require('litecore-lib');
+var bitcore = require('counoscoincore-lib');
 var rimraf = require('rimraf');
 var node;
 
