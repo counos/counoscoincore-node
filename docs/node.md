@@ -19,7 +19,7 @@ var Bitcoin = index.services.Bitcoin;
 var Node = index.Node;
 
 var configuration = {
-  datadir: '/home/user/.litecoin',
+  datadir: '/home/user/..counoscoin',
   network: 'testnet',
   services: [
     {

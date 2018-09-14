@@ -2,10 +2,10 @@ CounosCoincore Node
 ============
 
 [![NPM Package](https://img.shields.io/npm/v/counoscoincore-node.svg?style=flat-square)](https://www.npmjs.org/package/counoscoincore-node)
-[![Build Status](https://img.shields.io/travis/litecoin-project/counoscoincore-node.svg?branch=master&style=flat-square)](https://travis-ci.org/litecoin-project/counoscoincore-node)
-[![Coverage Status](https://img.shields.io/coveralls/litecoin-project/counoscoincore-node.svg?style=flat-square)](https://coveralls.io/r/litecoin-project/counoscoincore-node)
+[![Build Status](https://img.shields.io/travis/.counoscoin-project/counoscoincore-node.svg?branch=master&style=flat-square)](https://travis-ci.org/.counoscoin-project/counoscoincore-node)
+[![Coverage Status](https://img.shields.io/coveralls/.counoscoin-project/counoscoincore-node.svg?style=flat-square)](https://coveralls.io/r/.counoscoin-project/counoscoincore-node)
 
-A Litecoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Litecoin Core with additional indexing](https://github.com/litecoin-project/counoscoincore-litecoin) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A .counoscoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [.counoscoin Core with additional indexing](https://github.com/.counoscoin-project/counoscoincore-.counoscoin) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -14,7 +14,7 @@ npm install -g counoscoincore-node
 counoscoincore-node start
 ```
 
-Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Litecoin Core with additional indexing](https://github.com/litecoin-project/counoscoincore-litecoin).
+Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [.counoscoin Core with additional indexing](https://github.com/.counoscoin-project/counoscoincore-.counoscoin).
 
 ## Prerequisites
 
@@ -58,13 +58,13 @@ There are several add-on services available to extend the functionality of Bitco
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/litecoin-project/counoscoincore/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/.counoscoin-project/counoscoincore/blob/master/CONTRIBUTING.md) file.
 
 ## License
 
-Code released under [the MIT license](https://github.com/litecoin-project/counoscoincore-node/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/.counoscoin-project/counoscoincore-node/blob/master/LICENSE).
 
-Copyright 2016 The Litecoin Core Developers
+Copyright 2016 The .counoscoin Core Developers
 
 - bitcore: Copyright (c) 2013-2015 BitPay, Inc. (MIT License)
 - bitcoin: Copyright (c) 2009-2015 Bitcoin Core Developers (MIT License)

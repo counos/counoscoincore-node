@@ -44,12 +44,12 @@ var myNode = new counoscoincore.Node({
   network: 'regtest'
   services: [
     {
-      name: 'litecoind',
-      module: Litecoin,
+      name: '.counoscoind',
+      module: .counoscoin,
       config: {
         spawn: {
-          datadir: '/home/<username>/.litecoin',
-          exec: '/home/<username>/counoscoincore-node/bin/litecoind'
+          datadir: '/home/<username>/..counoscoin',
+          exec: '/home/<username>/counoscoincore-node/bin/.counoscoind'
         }
       }
     },

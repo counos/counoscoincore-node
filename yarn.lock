@@ -1526,9 +1526,9 @@ counoscoincore-lib@^0.13.19:
     lodash "=3.10.1"
     scryptsy "=2.0.0"
 
-"counoscoincore-p2p@git://github.com/litecoin-project/counoscoincore-p2p#427dba833970d656a47dba12983c9d972a478191":
+"counoscoincore-p2p@git://github.com/.counoscoin-project/counoscoincore-p2p#427dba833970d656a47dba12983c9d972a478191":
   version "1.1.1"
-  resolved "git://github.com/litecoin-project/counoscoincore-p2p#427dba833970d656a47dba12983c9d972a478191"
+  resolved "git://github.com/.counoscoin-project/counoscoincore-p2p#427dba833970d656a47dba12983c9d972a478191"
   dependencies:
     bloom-filter "^0.2.0"
     buffers bitpay/node-buffers#v0.1.2-bitpay
